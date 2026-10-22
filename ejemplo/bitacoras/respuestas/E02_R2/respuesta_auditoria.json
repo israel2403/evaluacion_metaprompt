@@ -1,0 +1,21 @@
+{
+  "tipo": "auditoria",
+  "interacciones_declaradas": 3,
+  "interacciones_observadas": null,
+  "hallazgos": [
+    {
+      "prioridad": "alta",
+      "asunto": "Falta la conversación original para contrastar las tres interacciones declaradas.",
+      "accion": "Solicitar los mensajes completos identificados como I01, I02 e I03.",
+      "evidencias": [
+        {
+          "archivo": "bitacora.md",
+          "desde": 45,
+          "hasta": 45,
+          "cita": "| Total de interacciones con IA, incluidas las de otros chats | 3 |"
+        }
+      ]
+    }
+  ],
+  "resumen": "Demostración manual basada en la bitácora suministrada. Sin conversación original no se verifican interacciones ni calidad; los resultados locales declarados no prueban aceptación del juez."
+}

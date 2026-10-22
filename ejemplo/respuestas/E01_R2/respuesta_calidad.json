@@ -1,0 +1,118 @@
+{
+  "tipo": "calidad",
+  "interacciones_observadas": 2,
+  "prompts": [
+    {
+      "posicion": "primero",
+      "interaccion": "I01",
+      "criterios": {
+        "objetivo": {
+          "puntaje": 2,
+          "motivo": "Ejemplo manual: el fragmento explicita el criterio o lo conserva del contexto previo. Validar con un especialista.",
+          "evidencias": [
+            {
+              "archivo": "conversacion.md",
+              "desde": 4,
+              "hasta": 4,
+              "cita": "Escribe en Python 3 una función contar(a, objetivo) que cuente pares de índices i < j cuya suma sea objetivo. Recibe una lista de enteros y un entero y devuelve un entero. n <= 200000; necesitamos O(n) esperado, memoria O(n). Comprueba [1, 1, 1], objetivo 2: debe devolver 3."
+            }
+          ]
+        },
+        "contexto": {
+          "puntaje": 2,
+          "motivo": "Ejemplo manual: el fragmento explicita el criterio o lo conserva del contexto previo. Validar con un especialista.",
+          "evidencias": [
+            {
+              "archivo": "conversacion.md",
+              "desde": 4,
+              "hasta": 4,
+              "cita": "Escribe en Python 3 una función contar(a, objetivo) que cuente pares de índices i < j cuya suma sea objetivo. Recibe una lista de enteros y un entero y devuelve un entero. n <= 200000; necesitamos O(n) esperado, memoria O(n). Comprueba [1, 1, 1], objetivo 2: debe devolver 3."
+            }
+          ]
+        },
+        "restricciones": {
+          "puntaje": 2,
+          "motivo": "Ejemplo manual: el fragmento explicita el criterio o lo conserva del contexto previo. Validar con un especialista.",
+          "evidencias": [
+            {
+              "archivo": "conversacion.md",
+              "desde": 4,
+              "hasta": 4,
+              "cita": "Escribe en Python 3 una función contar(a, objetivo) que cuente pares de índices i < j cuya suma sea objetivo. Recibe una lista de enteros y un entero y devuelve un entero. n <= 200000; necesitamos O(n) esperado, memoria O(n). Comprueba [1, 1, 1], objetivo 2: debe devolver 3."
+            }
+          ]
+        },
+        "verificacion": {
+          "puntaje": 2,
+          "motivo": "Ejemplo manual: el fragmento explicita el criterio o lo conserva del contexto previo. Validar con un especialista.",
+          "evidencias": [
+            {
+              "archivo": "conversacion.md",
+              "desde": 4,
+              "hasta": 4,
+              "cita": "Escribe en Python 3 una función contar(a, objetivo) que cuente pares de índices i < j cuya suma sea objetivo. Recibe una lista de enteros y un entero y devuelve un entero. n <= 200000; necesitamos O(n) esperado, memoria O(n). Comprueba [1, 1, 1], objetivo 2: debe devolver 3."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "posicion": "ultimo",
+      "interaccion": "I02",
+      "criterios": {
+        "objetivo": {
+          "puntaje": 2,
+          "motivo": "Ejemplo manual: el fragmento explicita el criterio o lo conserva del contexto previo. Validar con un especialista.",
+          "evidencias": [
+            {
+              "archivo": "conversacion.md",
+              "desde": 19,
+              "hasta": 19,
+              "cita": "Para la misma función, justifica por qué contar solo valores anteriores evita duplicar pares; verifica también la lista vacía, cuya salida esperada es 0. No generes código nuevo."
+            }
+          ]
+        },
+        "contexto": {
+          "puntaje": 2,
+          "motivo": "Ejemplo manual: el fragmento explicita el criterio o lo conserva del contexto previo. Validar con un especialista.",
+          "evidencias": [
+            {
+              "archivo": "conversacion.md",
+              "desde": 4,
+              "hasta": 4,
+              "cita": "Escribe en Python 3 una función contar(a, objetivo) que cuente pares de índices i < j cuya suma sea objetivo. Recibe una lista de enteros y un entero y devuelve un entero. n <= 200000; necesitamos O(n) esperado, memoria O(n). Comprueba [1, 1, 1], objetivo 2: debe devolver 3."
+            }
+          ]
+        },
+        "restricciones": {
+          "puntaje": 2,
+          "motivo": "Ejemplo manual: el fragmento explicita el criterio o lo conserva del contexto previo. Validar con un especialista.",
+          "evidencias": [
+            {
+              "archivo": "conversacion.md",
+              "desde": 4,
+              "hasta": 4,
+              "cita": "Escribe en Python 3 una función contar(a, objetivo) que cuente pares de índices i < j cuya suma sea objetivo. Recibe una lista de enteros y un entero y devuelve un entero. n <= 200000; necesitamos O(n) esperado, memoria O(n). Comprueba [1, 1, 1], objetivo 2: debe devolver 3."
+            }
+          ]
+        },
+        "verificacion": {
+          "puntaje": 2,
+          "motivo": "Ejemplo manual: el fragmento explicita el criterio o lo conserva del contexto previo. Validar con un especialista.",
+          "evidencias": [
+            {
+              "archivo": "conversacion.md",
+              "desde": 19,
+              "hasta": 19,
+              "cita": "Para la misma función, justifica por qué contar solo valores anteriores evita duplicar pares; verifica también la lista vacía, cuya salida esperada es 0. No generes código nuevo."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "alertas": [],
+  "observaciones": [
+    "DEMO: respuesta escrita manualmente para probar el programa; no es una calificación oficial ni una salida de IA."
+  ]
+}

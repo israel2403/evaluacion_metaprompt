@@ -1,0 +1,11 @@
+{
+  "tipo": "calidad",
+  "interacciones_observadas": null,
+  "prompts": [],
+  "alertas": [
+    "No se proporcionó la conversación original; calidad no evaluable."
+  ],
+  "observaciones": [
+    "Respuesta manual de demostración; no procede de IA."
+  ]
+}

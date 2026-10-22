@@ -1,0 +1,7 @@
+{
+  "tipo": "auditoria",
+  "interacciones_declaradas": 2,
+  "interacciones_observadas": 2,
+  "hallazgos": [],
+  "resumen": "DEMO manual: se observan dos interacciones y la bitácora declara dos. No se verifican código, resultados del juez ni horas externas."
+}
